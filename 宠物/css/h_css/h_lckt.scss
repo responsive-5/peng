@@ -1,24 +1,97 @@
 @import "common.css";
+a:hover{
+  text-decoration: none;
+  color:#fff;
+}
 @media screen and(max-width: 750px){
+  @media screen and(max-width: 375px){
+    .erpai{
+      display: none;
+    }
+  }
   .big{
+    display: none;
+  }
+  .hide1{
     display: none;
   }
   .background{
     width:100%;
-    height:1100px;
-    background-image: url("../img/h_img/bg-xs.png");
+    height:600px;
+    overflow: hidden;
+    .sousuo{
+      height:70px;
+      width:70px;
+      background:#9CD622;
+      margin-top:100px;
+      img{
+        margin:{
+          top:9px;
+          left:9px;
+        }
+      }
+    }
+    background-image: url("../../img/h_img/bg-xs.png");
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
     .h_nav{
-      height:1000px;
-      width:400px;
+      height:90%;
+      width:42%;
       background:#2E2E2E;
       position: absolute;
       right: 0;
-      top:120px;
+      top:100px;
+      ul{
+        height:85%;
+        width:100%;
+        //margin:0 auto;
+        li{
+          height:70px;
+          width:100%;
+          //margin:0 auto;
+          border-top:1px solid #9CD622;
+          a{
+            display: block;
+            height:100%;
+            width: 80%;
+            margin:0 auto;
+            span{
+              font-size:16px;
+              line-height:50px;
+            }
+            p{
+              font-size:20px;
+              line-height:0px;
+            }
+            span:first-child{
+              color:#9CD622;
+            }
+          }
+        }
+        li.diffrent{
+          background:#E6E6E6;
+        }
+        li:hover{
+          background:#E6E6E6;
+        }
+      }
     }
+    div.jiantou{
+      position: absolute;
+      right:30px;
+      bottom:30px;
+      height:15%;
+      img{
+        animation:fu 0.8s linear infinite alternate;
+      }
+    }
+  }
+}
+@media screen and(min-width: 750px) {
+  .small {
+    display: none;
   }
 }
 @mixin imgs(){
@@ -150,6 +223,7 @@ nav{
   background:#9CD622;
   text-align: center;
   line-height: 60px;
+  overflow: hidden;
   p{
     color:#090C02;
     margin:0;
@@ -159,7 +233,7 @@ nav{
   overflow: hidden;
   border:1px solid #BCBCBC;
   border-radius: 20px;
-  height:920px;
+  height:auto;
   width:90%;
   margin:0 auto;
   margin:{
@@ -235,5 +309,13 @@ nav{
   height:auto;
   img{
     width:100%;
+  }
+}
+@keyframes fu {
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(10PX);
   }
 }
