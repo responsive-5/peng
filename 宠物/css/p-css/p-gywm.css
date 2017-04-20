@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 .p-neirong{
     width: 90%;
     height: 100%;
@@ -64,11 +66,19 @@
     left: 160px;
     top: 850px;
 }
+.p-2:hover{
+    transform: scale(1.05);
+    z-index: 100;
+}
 .p-3{
     position: absolute;
     left: 534px;
     top: 958px;
     width: 177px;
+}
+.p-3:hover{
+    transform: scale(1.05);
+    z-index: 100;
 }
 .p-4{
     position: absolute;
@@ -76,13 +86,18 @@
     top: 977px;
     width: 500px;
 }
+.p-4:hover{
+    transform: scale(1.05);
+    z-index: 100;
+}
 .p-tiaotiao{
-    width: 100%;
+    width: 120%;
     height: 81px;
     position: absolute;
     left: 0;
     top: 1000px;
     background: #CFCFCF;
+    margin-left: -10%;
 }
 .p-three{
     position: absolute;
@@ -141,14 +156,8 @@
     color: #292929;
     line-height: 60px;
     font-weight: bold;
+    overflow: hidden;
 }
-/*.p-six{*/
-    /*width: 100%;*/
-    /*height: 180px;*/
-    /*border-bottom: 1px solid #CFCDCD;*/
-    /*padding: 15px 0;*/
-    /*box-sizing: border-box;*/
-/*}*/
 .p-one1{
     width: 100%;
     height: 168px;
@@ -157,16 +166,19 @@
 .p-one1 div{
     width: 80%;
     height: 100%;
+    overflow: hidden;
 }
 .p-two1 div{
     width: 80%;
     height: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .p-three1 div{
     width: 80%;
     height: 100%;
     float: right;
+    overflow: hidden;
 }
 .p-two1{
     width: 100%;
