@@ -25,3 +25,14 @@ $(function(){
         $('.big ul li div').remove();
    })
 });
+
+//爱心团队
+$(function(){
+    $('.love').hover(function(){
+        $('.X-five-shade').eq($(this).index()).css('display','none');
+        $('.X-personal-message').eq($(this).index()).css('bottom','-78px').animate({'z-index':'999'},200);
+    },function(){
+        $('.X-five-shade').eq($(this).index()).css('display','block');
+        $('.X-personal-message').eq($(this).index()).removeAttr('style');
+    })
+});
