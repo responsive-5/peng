@@ -250,7 +250,6 @@
   .X-part-three {
     width: 100%;
     height: auto;
-    overflow: hidden;
     margin-top: 250px;
     text-align: center;
   }
@@ -279,7 +278,7 @@
   .X-part-three .X-part-three-content {
     width: 100%;
     height: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   .X-part-three .X-part-three-content div {
     margin-top: 80px;
@@ -299,7 +298,7 @@
   .X-part-four .X-title {
     width: 100%;
     height: auto;
-    overflow: hidden;
+    margin-top: 150px;
   }
   .X-part-four .X-title img {
     display: block;
@@ -718,4 +717,58 @@
   .X-pet-big {
     display: none;
   }
+}
+.p-xq{
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  width: 0;
+  height: 40%;
+  background: rgba(172,216,66,.8);
+  overflow: hidden;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.p-jiantou{
+  font-size: 35px;
+  position: absolute;
+  left: 20%;
+  top: 95%;
+  z-index: 5;
+  color: #32474A;
+}
+.p-xq span{
+  font-size: 20px;
+  color: #0A0A0A;
+}
+.p-xq span:nth-child(1){
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.p-xq span:nth-child(2){
+   margin-top: 20px;
+ }
+.p-xq span:nth-child(3){
+  margin-left: 30px;
+}
+.p-xq1{
+  position: absolute;
+  left: 8%;
+  top: -46px;
+  width: 0;
+  height: 100%;
+  background: rgba(172,216,66,.8);
+  overflow: hidden;
+}
+.p-xq1 span{
+  color: #0A0A0A;
+}
+.p-xq1 span:nth-child(1){
+  font-weight: bold;
+  font-size: 20px;
+}
+.p-xq1 span:nth-child(2){
+  font-size: 20px;
 }
