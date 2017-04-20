@@ -39,27 +39,27 @@
     height: 660px;
     margin-top: 250px;
     position: relative;
+    background-image: url("../img/X-img/X-2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
   }
-  .X-part-one .X-part-imgone {
-    display: block;
-    width: 100%;
-    height: 660px;
+  .X-part-one .col-sm-3 {
+    width: 25%;
+    position: relative;
   }
-  .X-part-one .X-part-imgone img {
-    display: block;
-    width: 100%;
-    height: 660px;
+  .X-part-one .col-sm-4 {
+    width: 33.333%;
+    position: relative;
   }
   .X-part-one .X-part-imgtwo {
-    display: block;
     position: absolute;
-    left: 50px;
-    top: 0;
+    left: 20%;
     width: auto;
     height: auto;
     overflow: hidden;
   }
   .X-part-one .X-part-imgtwo img {
+    width: 100%;
     display: block;
   }
   .X-part-one .X-part-imgtwo h1 {
@@ -73,8 +73,8 @@
   .X-part-one .X-part-imgthree {
     display: block;
     position: absolute;
-    left: 300px;
-    top: 30px;
+    left: 10%;
+    top: 100%;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -98,13 +98,12 @@
     display: block;
   }
   .X-part-one .X-part-imgfour {
-    display: block;
     position: absolute;
-    left: 630px;
-    top: -50px;
+    left: 30%;
     width: auto;
     height: auto;
     overflow: hidden;
+    margin-top: -80px;
   }
   .X-part-one .X-part-imgfour h1 {
     font-size: 20px;
@@ -120,13 +119,12 @@
     display: block;
   }
   .X-part-one .X-part-imgfive {
-    display: block;
     position: absolute;
-    left: 950px;
-    top: 30px;
+    left: 40%;
     width: auto;
     height: auto;
     overflow: hidden;
+    margin-top: -50px;
   }
   .X-part-one .X-part-imgfive h1 {
     width: 160px;
@@ -150,15 +148,15 @@
   }
   .X-part-one .X-part-imgfive img {
     display: block;
+    margin-top: 80px;
   }
   .X-part-one .X-part-imgsix {
-    display: block;
     position: absolute;
-    left: 800px;
-    top: 450px;
+    left: 20%;
     width: auto;
     height: auto;
     overflow: hidden;
+    margin-top: -50px;
   }
   .X-part-one .X-part-imgsix h1 {
     font-size: 20px;
@@ -172,15 +170,15 @@
   }
   .X-part-one .X-part-imgsix img {
     display: block;
+    margin-top: 400px;
   }
   .X-part-one .X-part-imgseven {
-    display: block;
     position: absolute;
-    left: 430px;
-    top: 550px;
+    left: 20%;
     width: auto;
     height: auto;
     overflow: hidden;
+    margin-top: 160px;
   }
   .X-part-one .X-part-imgseven h1 {
     font-size: 20px;
@@ -194,6 +192,7 @@
   }
   .X-part-one .X-part-imgseven img {
     display: block;
+    margin-top: 300px;
   }
   .X-part-one-leftimg {
     width: auto;
@@ -229,7 +228,6 @@
   }
   .X-part-two > div:nth-child(2) img {
     width: 100%;
-    margin-top: 100%;
   }
   .X-part-two > div:nth-child(3) {
     width: 40%;
@@ -239,9 +237,10 @@
   }
   .X-part-two > div:nth-child(3) img {
     width: 100%;
+    height: 100%;
   }
   .X-part-two > div:nth-child(4) {
-    width: 20%;
+    width: 40%;
     float: right;
   }
   .X-part-two > div:nth-child(4) img {
@@ -363,10 +362,12 @@
   .X-part-five {
     width: 100%;
     height: auto;
+    overflow: hidden;
     background-image: url("../img/X-img/X-46.png");
     background-repeat: no-repeat;
     background-clip: content-box;
     background-size: cover;
+    background-position: center center;
   }
   .X-part-five .X-part-five-background {
     width: 100%;
@@ -417,7 +418,6 @@
   .X-part-five .X-part-five-content .X-part-five-contents .col-xs-3 .x-five-img {
     width: 100%;
     height: auto;
-    overflow: hidden;
     position: relative;
   }
   .X-part-five .X-part-five-content .X-part-five-contents .col-xs-3 .x-five-img img {
@@ -460,7 +460,7 @@
   .X-part-five .X-part-five-content .X-part-five-contents .col-xs-3 .X-personal-title {
     width: 70%;
     height: 15%;
-    background: #aba099;
+    background: rgba(171, 160, 153, 0.5);
     font-size: 20px;
     color: #3A3636;
     position: absolute;
@@ -480,12 +480,13 @@
   .X-part-five .X-part-five-content .X-part-five-contents > div:nth-child(4) .X-personal-message {
     display: none;
   }
-  .X-part-five .X-part-five-right {
+  .X-part-five-right {
     position: absolute;
     right: -250px;
-    top: 4300px;
+    top: 4350px;
+    overflow: hidden;
   }
-  .X-part-five .X-part-five-right img {
+  .X-part-five-right img {
     display: block;
   }
   .X-part-six {
@@ -523,7 +524,7 @@
   }
   .X-part-six .X-part-six-content .col-xs-8 .top {
     width: 100%;
-    height: 438px;
+    height: 440px;
     overflow: hidden;
     position: relative;
   }
@@ -534,29 +535,38 @@
     display: block;
   }
   .X-part-six .X-part-six-content .col-xs-8 .top div:nth-child(1) {
+    width: 47%;
     position: absolute;
-    left: 32%;
+    left: 22%;
     top: 0;
     z-index: 3;
-    transform: scale(1);
+  }
+  .X-part-six .X-part-six-content .col-xs-8 .top div:nth-child(1) img {
+    width: 100%;
   }
   .X-part-six .X-part-six-content .col-xs-8 .top div:nth-child(2) {
+    width: 42%;
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 10%;
     bottom: 0;
     margin: auto;
-    transform: scale(1);
     z-index: 1;
   }
+  .X-part-six .X-part-six-content .col-xs-8 .top div:nth-child(2) img {
+    width: 100%;
+  }
   .X-part-six .X-part-six-content .col-xs-8 .top div:nth-child(3) {
+    width: 42%;
     position: absolute;
-    left: 70%;
+    left: 58%;
     top: 10%;
     bottom: 0;
     margin: auto;
-    transform: scale(1);
     z-index: 1;
+  }
+  .X-part-six .X-part-six-content .col-xs-8 .top div:nth-child(3) img {
+    width: 100%;
   }
   .X-part-six .X-part-six-content .col-xs-8 .bottom {
     width: 100%;
@@ -646,22 +656,23 @@
     margin-top: 10px;
   }
   .X-part-seven .X-part-seven-content {
-    width: 100%;
+    width: 70%;
     height: auto;
     overflow: hidden;
+    margin: 0 auto;
   }
-  .X-part-seven .X-part-seven-content div {
+  .X-part-seven .X-part-seven-content .col-xs-4 {
     margin-top: 80px;
   }
-  .X-part-seven .X-part-seven-content div img {
+  .X-part-seven .X-part-seven-content .col-xs-4 > div {
+    width: 100%;
+  }
+  .X-part-seven .X-part-seven-content .col-xs-4 > div img {
     display: block;
     margin: 0 auto;
   }
-  .X-part-seven .X-part-seven-content div:nth-child(1) img {
-    float: right;
-  }
-  .X-part-seven .X-part-seven-content div:nth-child(3) img {
-    float: left;
+  .X-part-seven .X-part-seven-content .col-xs-4 > div:nth-child(2) {
+    margin-top: -35px;
   }
   .X-part-eight {
     width: 100%;
@@ -716,6 +727,12 @@
 
 @media screen and (max-width: 750px) {
   .X-pet-big {
+    display: none;
+  }
+  .X-part-eight {
+    display: none;
+  }
+  .X-part-nine {
     display: none;
   }
 }
