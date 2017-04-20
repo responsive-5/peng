@@ -119,6 +119,16 @@ nav{
       float:left;
       text-align: center;
       line-height: 60px;
+      transition: all 1s;
+      position: relative;
+      div{
+        width:124%;
+        height:28%;
+        position: absolute;
+        left:-30px;
+        bottom:-18px;
+        transition: all 1s;
+      }
       font:{
         size:18px;
       }
@@ -235,7 +245,7 @@ nav{
   border-radius: 20px;
   height:auto;
   width:90%;
-  margin:0 auto;
+  margin:50px auto;
   margin:{
     bottom: 20px;
   }
@@ -298,9 +308,38 @@ nav{
 .qiuqiu{
   height:auto;
   width:100%;
-  margin:0 auto;
-  img{
-    width: 100%;
+  margin:30px auto;
+  text-align: center;
+  a{
+    display: block;
+    height:100%;
+    width:100%;
+    h4{
+      margin:30px 0 20px;
+      color:#65D7FD;
+    }
+    h4:hover{
+      color:#9CD622;
+    }
+    .yin{
+      height:10px;
+      width:25%;
+      background:#E2E2E2;
+      border-radius:10px;
+      margin-left:38%;
+      margin-top:20px;
+      opacity: 0;
+    }
+    img{
+      width: 100%;
+    }
+    img:hover{
+      animation:xuan 0.3s linear forwards;
+      transform-style:preserve-3d;
+    }
+    img:hover .qiuqiu a .yin{
+      opacity:1;
+    }
   }
 }
 
@@ -319,7 +358,14 @@ nav{
     transform:translateX(10PX);
   }
 }
-
+@keyframes xuan{
+  0%{
+    transform:translateY(0);
+  }
+  100%{
+    transform:translateY(-20px);
+  }
+}
 
 
 
