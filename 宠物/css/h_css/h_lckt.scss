@@ -8,6 +8,16 @@ a:hover{
     .erpai{
       display: none;
     }
+    .kuang div.contents div:first-child{
+      margin-left:80px;
+    }
+    .kuang div.contents div.xiaoping{
+      width:90%;
+      margin-left:8px;
+    }
+    .kuang .contents div.xiaoping p:first-child{
+      margin-left:8%;
+    }
   }
   .big{
     display: none;
@@ -128,10 +138,10 @@ nav{
       position: relative;
       a.active{
         display:block;
-        width:76px;
-        height:40px;
+        width:80%;
+        height:60%;
         border-radius:6px;
-        line-height:42px;
+        line-height:40px;
         text-align:center;
         position:absolute;
         top:0;
@@ -141,7 +151,7 @@ nav{
         margin:auto;
         z-index:999;
         color:#2EB6BE;
-        font-size:16px;
+        font-size:15%;
         background:#EDEDED;
       }
       div,section{
@@ -285,7 +295,6 @@ nav{
       height:auto;
     }
     div:first-child{
-
       width:30%;
       margin-left: 6%;
     }
