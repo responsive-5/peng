@@ -48,6 +48,36 @@ $(function(){
     });
 
 
+//
+    let t;
+    $('.sanlan').each(function (index,val) {
+        $(val).hover(function () {
+            t=setTimeout(function () {
+                $('.zhezhao').eq(index).animate({'height':'80%'},300)
+            },150)
+        },function () {
+            clearTimeout(t)
+            $('.zhezhao').eq(index).animate({'height':'30%'},300)
+        })
+
+    })
+    // let flag=true;
+    // let flag1=false;
+    // $('.zhezhao').hover(function () {
+    //     if(flag){
+    //         flag=false;
+    //         $(this).animate({'height':'80%'},300,function(){
+    //             flag1=true;
+    //         })
+    //     }
+    // },function(){
+    //     if(flag1){
+    //         flag1=false;
+    //         $(this).animate({'height':'30%'},300,function(){
+    //             flag=true;
+    //         })
+    //     }
+    // })
 
 })
 

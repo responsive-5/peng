@@ -366,10 +366,34 @@ nav ul li a {
 .sanlan {
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 .sanlan img {
   width: 100%;
+}
+
+.sanlan .zhezhao {
+  width: 80%;
+  height: 30%;
+  text-align: center;
+  background: rgba(156, 214, 34, 0.8);
+  position: absolute;
+  bottom: -20px;
+  left: 10%;
+  overflow: hidden;
+}
+
+.sanlan .zhezhao h4:first-of-type {
+  margin: 20px 0;
+}
+
+.sanlan .zhezhao h4:nth-of-type(2) {
+  margin: 10px 0 80px;
+}
+
+.sanlan .zhezhao p {
+  line-height: 25px;
 }
 
 @keyframes fu {
