@@ -753,6 +753,7 @@
   top: 95%;
   z-index: 5;
   color: #32474A;
+  animation: p-active .8s infinite alternate;
 }
 .p-xq span{
   font-size: 20px;
@@ -788,4 +789,24 @@
 }
 .p-xq1 span:nth-child(2){
   font-size: 20px;
+}
+@keyframes p-active {
+  0%{
+    left: 20%;
+  }
+  100%{
+    left: 23%;
+  }
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+
 }
