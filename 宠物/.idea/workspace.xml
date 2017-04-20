@@ -17,6 +17,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -68,24 +69,49 @@
         <option value="JavaScript File" />
       </list>
     </option>
+=======
+    <leaf>
+      <file leaf-file-name="h_lckt.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/h_lckt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/h_lxwm.html" />
         <option value="$PROJECT_DIR$/css/h_lckt.scss" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/h_css/h_lckt.scss" />
+=======
+        <option value="$PROJECT_DIR$/h_wzsy.html" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
         <option value="$PROJECT_DIR$/css/h_lcktl.css" />
         <option value="$PROJECT_DIR$/h_gywm.html" />
         <option value="$PROJECT_DIR$/h_mcjy.html" />
         <option value="$PROJECT_DIR$/css/m_sqly.scss" />
-        <option value="$PROJECT_DIR$/js/h_js/h_lckt.js" />
         <option value="$PROJECT_DIR$/m_sqly.html" />
         <option value="$PROJECT_DIR$/m_acsy.html" />
         <option value="$PROJECT_DIR$/h_acfw.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/X-shouye.css" />
         <option value="$PROJECT_DIR$/h_wzsy.html" />
         <option value="$PROJECT_DIR$/js/p-sytx.js" />
+=======
+        <option value="$PROJECT_DIR$/css/p-css/h_lckt.css" />
+        <option value="$PROJECT_DIR$/css/h_css/h_lckt.css" />
+        <option value="$PROJECT_DIR$/h_lxwm.html" />
+        <option value="$PROJECT_DIR$/css/h_css/h_lckt.scss" />
+        <option value="$PROJECT_DIR$/js/h_js/h_lckt.js" />
+        <option value="$PROJECT_DIR$/h_lckt.html" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
       </list>
     </option>
   </component>
@@ -96,10 +122,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+    <option name="x" value="-120" />
+    <option name="width" value="1349" />
+    <option name="height" value="701" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -128,6 +160,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="宠物" />
@@ -156,6 +189,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -173,16 +208,17 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\peng\宠物\img\m-img" />
+      <recent name="C:\Users\Administrator\Desktop\peng\宠物\img\X-img" />
       <recent name="C:\Users\Administrator\Desktop\peng\宠物\img" />
       <recent name="C:\Users\Administrator\Desktop\peng\宠物\css" />
       <recent name="C:\Users\Administrator\Desktop\peng\宠物\css\h_css" />
-      <recent name="C:\Users\Administrator\Desktop\peng\宠物\css\p-css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\peng\宠物\img\X-img" />
+      <recent name="C:\Users\Administrator\Desktop\peng\宠物\img\h_img" />
       <recent name="C:\Users\Administrator\Desktop\peng\宠物\css" />
       <recent name="C:\Users\Administrator\Desktop\peng\宠物\img" />
       <recent name="C:\Users\Administrator\Desktop\peng\宠物\js" />
-      <recent name="C:\Users\Administrator\Desktop\peng\宠物" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,16 +304,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492650929801</updated>
+<<<<<<< HEAD
       <workItem from="1492650931601" duration="5366000" />
       <workItem from="1492668879378" duration="4009000" />
+=======
+      <workItem from="1492650931601" duration="16065000" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+=======
+    <option name="totallyTimeSpent" value="16065000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-120" y="0" width="1349" height="701" extended-state="1" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1376488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -327,6 +374,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/m_acsy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
@@ -374,6 +422,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
     <entry file="file://$PROJECT_DIR$/css/h_lcktl.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -382,6 +432,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/h_gywm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -396,6 +447,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
     <entry file="file://$PROJECT_DIR$/h_mcjy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -426,31 +479,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/m_acsy.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/h_js/h_lckt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/h_css/h_lckt.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/m_sqly.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/m_acsy.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="240">
+          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/p-css/h_lckt.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="990">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+=======
+        <state relative-caret-position="-7760">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/h_css/h_lckt.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="132">
           <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
@@ -460,6 +525,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="80" column="33" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+=======
+        <state relative-caret-position="265">
+          <caret line="350" column="0" lean-forward="false" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
           <folding />
         </state>
       </provider>
@@ -472,18 +541,91 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/m_sqly.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+=======
+    <entry file="file://$PROJECT_DIR$/h_wzsy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6505">
+          <caret line="419" column="0" lean-forward="true" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/X-shouye.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13827">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_lxwm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="125" column="25" lean-forward="true" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_gywm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/h_js/h_lckt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <marker date="1492671151712" expanded="true" signature="1346:1369" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/h_css/h_lckt.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="128" column="21" lean-forward="true" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m_acsy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="80" column="33" lean-forward="true" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/X-shouye.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="729" column="25" lean-forward="false" selection-start-line="729" selection-start-column="25" selection-end-line="729" selection-end-column="25" />
+=======
+        <state relative-caret-position="-990">
+          <caret line="174" column="18" lean-forward="true" selection-start-line="174" selection-start-column="18" selection-end-line="174" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_lckt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+>>>>>>> 93cf710d9e3637e60a77e5f9b15b47d951279159
           <folding />
         </state>
       </provider>
