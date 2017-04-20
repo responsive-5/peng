@@ -758,15 +758,18 @@
 .p-jiantou{
   font-size: 35px;
   position: absolute;
-  left: 20%;
-  top: 95%;
+  left: 0;
+  top: 92%;
   z-index: 5;
-  color: #32474A;
+  color: #fff;
   animation: p-active .8s infinite alternate;
+}
+.p-jiantou:hover{
+  color: #0ECA5A;
 }
 .p-xq span{
   font-size: 20px;
-  color: #0A0A0A;
+  color: #F6F6F6;
 }
 .p-xq span:nth-child(1){
   font-weight: bold;
@@ -778,7 +781,7 @@
    margin-top: 20px;
  }
 .p-xq span:nth-child(3){
-  margin-left: 30px;
+ margin-left: -30px;
 }
 .p-xq1{
   position: absolute;
@@ -788,9 +791,11 @@
   height: 100%;
   background: rgba(172,216,66,.8);
   overflow: hidden;
+  padding-top: 30px;
+  box-sizing: border-box;
 }
 .p-xq1 span{
-  color: #0A0A0A;
+  color: #F6F6F6;
 }
 .p-xq1 span:nth-child(1){
   font-weight: bold;
@@ -798,6 +803,11 @@
 }
 .p-xq1 span:nth-child(2){
   font-size: 20px;
+}
+.p-xq1 span:nth-child(3){
+  font-size: 15px;
+  margin: 0 20px;
+  display: block;
 }
 @keyframes p-active {
   0%{
