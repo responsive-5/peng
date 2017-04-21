@@ -49,7 +49,7 @@ $(function(){
 
 
 //
-    let t;
+    var t;
     $('.sanlan').each(function (index,val) {
         $(val).hover(function () {
             t=setTimeout(function () {
