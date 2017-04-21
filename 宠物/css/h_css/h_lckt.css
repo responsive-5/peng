@@ -8,6 +8,9 @@ a:hover {
   .erpai {
     display: none;
   }
+}
+
+@media screen and (max-width: 750px) {
   .kuang div.contents div:first-child {
     margin-left: 80px;
   }
@@ -18,9 +21,6 @@ a:hover {
   .kuang .contents div.xiaoping p:first-child {
     margin-left: 8%;
   }
-}
-
-@media screen and (max-width: 750px) {
   .big {
     display: none;
   }
