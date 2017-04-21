@@ -146,8 +146,8 @@ nav ul li a {
 }
 nav ul li a.active{
   display:block;
-  width:76px;
-  height:40px;
+  width:80%;
+  height:60%;
   border-radius:6px;
   line-height:42px;
   text-align:center;
@@ -159,7 +159,7 @@ nav ul li a.active{
   margin:auto;
   z-index:999;
   color:#2EB6BE;
-  font-size:16px;
+  font-size:"15%";
   background:#EDEDED;
 }
 .banner {
