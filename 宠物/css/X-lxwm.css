@@ -467,7 +467,7 @@ nav ul li a {
 }
 
 @media screen and (max-width: 750px) {
-  .X-big {
+  .X-big{
     display: none;
   }
   .X-part-one {
