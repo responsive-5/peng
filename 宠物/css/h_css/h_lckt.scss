@@ -1,4 +1,4 @@
-@import "common.css";
+@import url("common.css");
 a:hover{
   text-decoration: none;
   color:#fff;
@@ -8,6 +8,7 @@ a:hover{
     .erpai{
       display: none;
     }
+  }
     .kuang div.contents div:first-child{
       margin-left:80px;
     }
@@ -18,7 +19,7 @@ a:hover{
     .kuang .contents div.xiaoping p:first-child{
       margin-left:8%;
     }
-  }
+  
   .big{
     display: none;
   }
