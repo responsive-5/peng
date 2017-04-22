@@ -12,7 +12,7 @@ a:hover {
 
 @media screen and (max-width: 750px) {
   .kuang div.contents div:first-child {
-    margin-left: 80px;
+    margin-left: 30%;
   }
   .kuang div.contents div.xiaoping {
     width: 90%;
@@ -410,25 +410,32 @@ nav ul li a {
 
 .sanlan .zhezhao {
   width: 80%;
-  height: 30%;
+  height: 80%;
   text-align: center;
-  background: rgba(156, 214, 34, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
-  bottom: -20px;
+  bottom: 10%;
   left: 10%;
-  overflow: hidden;
+  opacity: 0;
 }
 
 .sanlan .zhezhao h4:first-of-type {
   margin: 20px 0;
+  color: #fff;
 }
 
 .sanlan .zhezhao h4:nth-of-type(2) {
   margin: 10px 0 80px;
+  color: #fff;
 }
 
 .sanlan .zhezhao p {
   line-height: 25px;
+  color: #fff;
+}
+
+.sanlan .zhezhao1 {
+  left: 12%;
 }
 
 @keyframes fu {
