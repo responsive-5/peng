@@ -4,11 +4,23 @@ a:hover{
   color:#fff;
 }
 @media screen and(max-width: 750px){
-  @media screen and(max-width: 375px){
+  @media screen and(max-width: 480px){
     .erpai{
       display: none;
     }
+    .sanlan{
+      .zhezhao{
+        h4{
+          font-size:12px;
+        }
+        p:nth-of-type(3)~p{
+          font-size:10px;
+          display:none;
+        }
+      }
+    }
   }
+
     .kuang div.contents div:first-child{
       margin-left:30%;
     }
@@ -395,15 +407,15 @@ nav{
     opacity:0;
     //overflow: hidden;
     h4:first-of-type{
-      margin:20px 0;
+      margin:10% 0;
       color:#fff;
     }
     h4:nth-of-type(2){
-      margin:10px 0 80px;
+      margin:10% 0 20%;
       color:#fff;
     }
     p{
-      line-height:25px;
+      //line-height:80%;
       color:#fff;
     }
   }
