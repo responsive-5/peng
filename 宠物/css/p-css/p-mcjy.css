@@ -111,7 +111,7 @@ button:hover{
 }
 .zz1{
     width: 80%;
-    height:0;
+    height:90%;
     background: rgba(255,255,255,.6);
     position: absolute;
     left:10%;
@@ -119,12 +119,13 @@ button:hover{
     transition: all .5s .2s;
     overflow: hidden;
     color: #0A0A0A;
+    opacity: 0;
 }
 .ibox:hover .zz{
     display: block;
 }
 .ibox:hover .zz1{
-    height: 90%;
+    opacity: 1;
 }
 .zz1 .btn{
     width: 67px;
@@ -139,4 +140,23 @@ button:hover{
     line-height: 10px;
     text-align: center;
     font-size: 12px;
+}
+@media screen and (max-width: 770px){
+    .neirong{
+    padding: 0 15px;
+}
+    .syy{
+        position: absolute;
+        left: 20%;
+    }
+    .xyy{
+        position: absolute;
+        right: 20%;
+    }
+}
+
+.ceshi{
+    width: 200px;
+    height: 200px;
+    background: red;
 }

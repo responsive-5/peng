@@ -5,16 +5,17 @@
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>爱宠领养</title>
     <link rel="stylesheet" href="css/h_css/bootstrap.css">
+    <link rel="stylesheet" href="css/h_css/common.css">
     <link rel="stylesheet" href="css/m_sqly.css">
     <link rel="stylesheet" href="css/h_css/h_lckt.css">
     <script src="js/h_js/jquery.min.js"></script>
     <script src="js/h_js/h_lckt.js"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
             <div class="hidden-xs col-sm-12">
-
                 <nav>
                     <img src="img/m-img/logo.png" alt="">
                     <ul>
@@ -44,9 +45,9 @@
             </div>
             <div class="small hidden-sm hidden-md hidden-lg">
                 <div class="background">
-                    <div class="sousuo">
+                  <!--   <div class="sousuo">
                         <img src="img/m-img/sou_03.png" alt="">
-                    </div>
+                    </div> -->
                     <div class="h_nav">
                         <ul>
                             <li>
@@ -109,17 +110,17 @@
                                 <img src="img/m-img/wei.png" alt="">
                             </a>
                         </li>
-                        <li>
+                        <li class="col-xs-4">
                             <a href="javascript:;">
                                 <span>萌宠寄养</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="col-xs-4">
                             <a href="javascript:;">
                                 <span>我要领养</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="col-xs-4">
                             <a href="javascript:;">
                                 <span>申请领养</span>
                             </a>
@@ -168,34 +169,34 @@
                         <div class="m_method-nav col-xs-12">您的联系方式</div>
                         <ul>
                             <li>
-                                <p class="m_one col-xs-2 col-sm-2">姓名</p>
-                                <input type="text" class="m_one-input col-xs-9 col-sm-4">
-                                <p class="m_two col-xs-2 col-sm-2">住址</p>
-                                <input type="text" class="m_two-input col-xs-9 col-sm-4">
+                                <p class="m_one col-xs-3 col-sm-1">姓名</p>
+                                <input type="text" class="m_one-input col-xs-8 col-sm-4">
+                                <p class="m_two col-xs-3 col-sm-1">住址</p>
+                                <input type="text" class="m_two-input col-xs-8 col-sm-4">
                             </li>
                             <li>
-                                <p class="m_one col-xs-2 col-sm-2">年龄</p>
-                                <input type="text" class="m_one-input col-xs-9 col-sm-4">
-                                <p class="m_two col-xs-2 col-sm-2">身份证</p>
-                                <input type="text" class="m_two-input col-xs-9 col-sm-4">
+                                <p class="m_one col-xs-3 col-sm-1">年龄</p>
+                                <input type="text" class="m_one-input col-xs-8 col-sm-4">
+                                <p class="m_two col-xs-3 col-sm-1">身份证</p>
+                                <input type="text" class="m_two-input col-xs-8 col-sm-4">
                             </li>
                             <li>
-                                <p class="m_one col-xs-2 col-sm-2">手机</p>
-                                <input type="text" class="m_one-input col-xs-9 col-sm-4">
-                                <p class="m_two col-xs-2 col-sm-2">QQ</p>
-                                <input type="text" class="m_two-input col-xs-9 col-sm-4">
+                                <p class="m_one col-xs-3 col-sm-1">手机</p>
+                                <input type="text" class="m_one-input col-xs-8 col-sm-4">
+                                <p class="m_two col-xs-3 col-sm-1">QQ</p>
+                                <input type="text" class="m_two-input col-xs-8 col-sm-4">
                             </li>
                             <li>
-                                <p class="m_one col-xs-2 col-sm-2">姓名</p>
-                                <input type="text" class="m_one-input col-xs-9 col-sm-4">
-                                <p class="m_two col-xs-2 col-sm-2">住址</p>
-                                <input type="text" class="m_two-input col-xs-9 col-sm-4">
+                                <p class="m_one col-xs-3 col-sm-1">姓名</p>
+                                <input type="text" class="m_one-input col-xs-8 col-sm-4">
+                                <p class="m_two col-xs-3 col-sm-1">住址</p>
+                                <input type="text" class="m_two-input col-xs-8 col-sm-4">
                             </li>
                             <li>
-                                <p class="m_one col-xs-2 col-sm-2">邮箱</p>
-                                <input type="text" class="m_one-input col-xs-9 col-sm-4">
-                                <p class="m_two col-xs-2 col-sm-2">性别</p>
-                                <input type="text" class="m_two-input col-xs-9 col-sm-4">
+                                <p class="m_one col-xs-3 col-sm-1">邮箱</p>
+                                <input type="text" class="m_one-input col-xs-8 col-sm-4">
+                                <p class="m_two col-xs-3 col-sm-1">性别</p>
+                                <input type="text" class="m_two-input col-xs-8 col-sm-4">
                             </li>
                         </ul>
                     </div>
@@ -207,8 +208,8 @@
                         <ul>
                             <li class="col-xs-12 col-ms-6">
                                 <p>您现在是否有饲养的宠物?</p>
-                                <input type="radio" value="是"><span>是</span>
-                                <input type="radio" value="否"><span>否</span>
+                                <input class="m_ra" type="radio" value="是"><span>是</span>
+                                <input class="m_ra" type="radio" value="否"><span>否</span>
                             </li>
                             <li class="col-xs-12 col-ms-6">
                                 <p>您饲养的宠物种类</p>
@@ -220,15 +221,15 @@
                             </li>
                             <li class="col-xs-12 col-ms-6">
                                 <p>您是否在上海长住?</p>
-                                <input type="radio" value="是"><span>是</span>
-                                <input type="radio" value="否"><span>否</span>
+                                <input class="m_ra" type="radio" value="是"><span>是</span>
+                                <input class="m_ra" type="radio" value="否"><span>否</span>
                             </li>
                             <li class="col-xs-12 col-ms-6">
-                                <p>您每月在宠物饲养上的花销大概是</p>
+                                <p>每月在宠物饲养上的花销</p>
                                 <input type="text"><span>元</span>
                             </li>
                             <li class="col-xs-12 col-ms-6">
-                                <p>你每天有多少个人支配时间</p>
+                                <p>每天有多少个人支配时间</p>
                                 <input type="text"><span>小时</span>
                             </li>
                         </ul>
