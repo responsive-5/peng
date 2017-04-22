@@ -11,7 +11,7 @@ $(document).ready(function () {
         $(this).toggleClass('glyphicon glyphicon-menu-right')
         $(this).toggleClass('glyphicon glyphicon-menu-left')
 
-    })
+    });
 
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
@@ -27,5 +27,6 @@ $(document).ready(function () {
             slideShadows : true
         }
     });
+
 });
 
