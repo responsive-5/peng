@@ -128,6 +128,11 @@ nav{
     width:90%;
   }
 }
+@media screen and(max-width:750px){
+  .acsy-img{
+    margin-left:0;
+  }
+}
 .background{
   width:100%;
   height:1000px;
@@ -242,17 +247,18 @@ nav{
       padding:7% 10%;
       box-sizing: border-box;
       button{
-        width:12%;
+        width:4rem;
         height:30px;
         float:left;
         background:#65d7fd;
         border-radius:26px;
         border:0;
+        font-size: .08rem;
         outline: none;
         margin:0 20px;
       }
       a{
-        width:5%;
+        width:2rem;
         height:30px;
         display:block;
         border-radius:26px;
@@ -287,6 +293,25 @@ nav{
   }
   .active{
     box-shadow: 0 0 10px 0 #666;
+  }
+}
+@media screen and (max-width:750px){
+  .relative{
+    display: none;
+  }
+  .dog,.cat{
+    li:last-child{
+      height:80px;
+      button{
+        float:left;
+        &:last-of-type{
+          float:right;
+        }
+      }
+    }
+  }
+  .foot{
+    margin-top:20px !important;
   }
 }
 .relative{

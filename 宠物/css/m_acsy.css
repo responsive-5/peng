@@ -147,6 +147,12 @@ nav ul li a {
   width: 90%;
 }
 
+@media screen and (max-width: 750px) {
+  .acsy-img {
+    margin-left: 0;
+  }
+}
+
 .background {
   width: 100%;
   height: 1000px;
@@ -281,18 +287,19 @@ nav ul li a {
 }
 
 .dog li:last-child button, .cat li:last-child button {
-  width: 12%;
+  width: 4rem;
   height: 30px;
   float: left;
   background: #65d7fd;
   border-radius: 26px;
   border: 0;
+  font-size: .08rem;
   outline: none;
   margin: 0 20px;
 }
 
 .dog li:last-child a, .cat li:last-child a {
-  width: 5%;
+  width: 2rem;
   height: 30px;
   display: block;
   border-radius: 26px;
@@ -330,6 +337,24 @@ nav ul li a {
 
 .dog .active, .cat .active {
   box-shadow: 0 0 10px 0 #666;
+}
+
+@media screen and (max-width: 750px) {
+  .relative {
+    display: none;
+  }
+  .dog li:last-child, .cat li:last-child {
+    height: 80px;
+  }
+  .dog li:last-child button, .cat li:last-child button {
+    float: left;
+  }
+  .dog li:last-child button:last-of-type, .cat li:last-child button:last-of-type {
+    float: right;
+  }
+  .foot {
+    margin-top: 20px !important;
+  }
 }
 
 .relative {
@@ -375,6 +400,7 @@ nav ul li a {
   height: 60px;
   margin-top: 164px;
   background: #9cd622;
+  overflow: hidden;
 }
 
 .foot p {
