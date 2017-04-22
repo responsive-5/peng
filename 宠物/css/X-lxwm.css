@@ -1,9 +1,13 @@
-/*@import url("common.css");
+@import url("common.css");
 a:hover {
   text-decoration: none;
   color: #fff;
 }
-
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
 @media screen and (max-width: 750px) and (max-width: 375px) {
   .erpai {
     display: none;
@@ -21,7 +25,7 @@ a:hover {
     width: 100%;
     height: 1000px;
     overflow: hidden;
-    background-image: url("../../img/h_img/bg-xs.png");
+    background-image: url("../img/h_img/bg-xs.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -327,11 +331,19 @@ nav ul li a {
   100% {
     transform: translateX(10PX);
   }
-}*/
+}
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
 
 @media screen and (min-width: 750px) {
   .X-small{
     display: none;
+  }
+  .small{
+  	display: none;
   }
   .X-part-one {
     width: 100%;
@@ -376,6 +388,9 @@ nav ul li a {
   }
   .X-part-one .X-part-one-content div:nth-child(1) img {
     float: right;
+  }
+  .X-part-one .X-part-one-content div:nth-child(2) img {
+    margin-top:-8px;
   }
   .X-part-one .X-part-one-content div:nth-child(3) img {
     float: left;
@@ -466,9 +481,15 @@ nav ul li a {
   }
 }
 
+
+
+
 @media screen and (max-width: 750px) {
   .X-big{
     display: none;
+  }
+  .big{
+  	display: none;
   }
   .X-part-one {
     width: 100%;
@@ -509,15 +530,21 @@ nav ul li a {
     margin-top: 80px;
   }
   .X-part-one .X-part-one-content div img {
+    width:90%;
     display: block;
     margin: 0 auto;
   }
   .X-part-one .X-part-one-content div:nth-child(1) img {
     float: right;
   }
+  .X-part-one .X-part-one-content div:nth-child(2) img {
+    margin-top:-2%;
+  }
   .X-part-one .X-part-one-content div:nth-child(3) img {
     float: left;
   }
+  
+  
   .X-part-two {
     width: 100%;
     height: auto;
@@ -536,8 +563,10 @@ nav ul li a {
     border: 1px solid #BCBCBC;
     margin-top: 100px;
     margin-bottom: 100px;
+    overflow: hidden;
   }
   .X-part-three .X-title img {
+    width:100%;
     display: block;
     margin-left: 30px;
     margin-top: 30px;
@@ -583,5 +612,110 @@ nav ul li a {
   }
   .X-part-three .X-content-three p:nth-child(1) {
     margin-top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+	.X-part-one .X-part-one-content div img {
+    width:120%;
+    display: block;
+    margin: 0 auto;
+  }
+  .X-part-one .X-part-one-content div:nth-child(1) img {
+    float: right;
+  }
+  .X-part-one .X-part-one-content div:nth-child(2) img {
+    margin-top:-5%;
+    margin-left:-5%;
+  }
+  .X-part-one .X-part-one-content div:nth-child(3) img {
+    float: left;
+  }
+  .X-part-two {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 80px;
+  }
+	.X-part-three {
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #BCBCBC;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .X-part-three .X-title img {
+    width:100%;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .X-part-three .X-title-one img {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .X-part-three .X-title-two img {
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .X-part-three .X-content-one {
+    width: 90%;
+    height: auto;
+    margin-left: 10px;
+  }
+  .X-part-three .X-content-two {
+    width: 660px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 260px) {
+	.X-part-one .X-part-one-content div {
+    margin-top: 70px;
+  }
+	.X-part-one .X-part-one-content div img {
+    width:120%;
+    display: block;
+    margin: 0 auto;
+  }
+  .X-part-three .X-title img {
+    width:100%;
+    display: block;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .X-part-three .X-title-one img {
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .X-part-three .X-title-two img {
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .X-part-three .X-content-one {
+    width: 90%;
+    height: auto;
+    margin-left: 5px;
+  }
+  .X-part-three .X-content-two {
+    width: 660px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 5px;
   }
 }
