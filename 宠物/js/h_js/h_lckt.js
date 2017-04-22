@@ -48,19 +48,19 @@ $(function(){
     });
 
 
-//
+
     var t;
     $('.sanlan').each(function (index,val) {
         $(val).hover(function () {
             t=setTimeout(function () {
-                $('.zhezhao').eq(index).animate({'height':'80%'},300)
+                $('.zhezhao').eq(index).animate({'opacity':1},300)
             },150)
         },function () {
-            clearTimeout(t)
-            $('.zhezhao').eq(index).animate({'height':'30%'},300)
+            clearTimeout(t);
+            $('.zhezhao').eq(index).animate({'opacity':0},300)
         })
 
     })
 
-})
+});
 
